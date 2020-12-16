@@ -1,4 +1,4 @@
-FROM docker pull elasticsearch:7.9.3
+FROM elasticsearch:7.9.3
 
 wget https://artifacts.elastic.co/downloads/elasticsearch-plugins/analysis-phonetic/analysis-phonetic-7.9.3.zip
 
