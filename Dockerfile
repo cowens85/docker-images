@@ -1,4 +1,4 @@
-FROM centos7:latest
+FROM alpine
 
 RUN wget --no-check-certificate -O - https://artifacts.elastic.co/downloads/elasticsearch-plugins/analysis-phonetic/analysis-phonetic-7.9.3.zip > /analysis-phonetic-7.9.3.zip
 
